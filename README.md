@@ -205,4 +205,6 @@ This mock uses the same state machine concepts (commands and transitions) as the
 - **Host Mock vs. Firmware**
   - The host mock program mirrors the firmware logic at a high level but runs as a normal C program.
   - It replaces hardware-specific calls with `printf`-based mocks, which is useful for understanding and presenting the design without requiring an ESP32 board.
+
+## USE OF AI
 AI was primarily used to assist in developing the firmware, as this domain was entirely new to me. It helped guide the structure, implementation, and best practices, while I focused on understanding the concepts, refining the logic, and ensuring the system behaved as intended.
