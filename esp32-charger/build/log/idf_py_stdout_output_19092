@@ -1,0 +1,17 @@
+[1/11] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\user\OneDrive\Documents\Desktop\projects\chaji\esp32-charger\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/user/OneDrive/Documents/Desktop/projects/chaji/esp32-charger/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[3/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/mqtt_client_app.c.obj
+[4/9] Linking C static library esp-idf\main\libmain.a
+[5/9] Generating ld/sections.ld
+[6/9] Building C object CMakeFiles/esp32-charger.elf.dir/project_elf_src_esp32.c.obj
+[7/9] Linking CXX executable esp32-charger.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/user/OneDrive/Documents/Desktop/projects/chaji/esp32-charger/build/esp32-charger.bin
+[9/9] cmd.exe /C "cd /D C:\Users\user\OneDrive\Documents\Desktop\projects\chaji\esp32-charger\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/user/OneDrive/Documents/Desktop/projects/chaji/esp32-charger/build/partition_table/partition-table.bin C:/Users/user/OneDrive/Documents/Desktop/projects/chaji/esp32-charger/build/esp32-charger.bin"
+esp32-charger.bin binary size 0xe3150 bytes. Smallest app partition is 0x100000 bytes. 0x1ceb0 bytes (11%) free.

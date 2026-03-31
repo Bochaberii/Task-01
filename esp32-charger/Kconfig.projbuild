@@ -1,0 +1,28 @@
+menu "Charge-Point Demo Configuration"
+
+config WIFI_SSID
+    string "Default Wi-Fi SSID"
+    default "my_wifi_ssid"
+    help
+        This is an optional default Wi-Fi SSID used when no
+        credentials are stored in NVS yet. Using Kconfig for
+        this value makes it easy to change per build without
+        touching the C source code.
+
+config WIFI_PASSWORD
+    string "Default Wi-Fi password"
+    default "my_wifi_password"
+    help
+        Optional default Wi-Fi password used when NVS does not
+        contain stored credentials. Leaving this empty and using
+        a proper provisioning flow later is also fine.
+
+config MQTT_BROKER_URL
+    string "MQTT broker URL"
+    default "mqtt://broker.hivemq.com"
+    help
+        MQTT broker URI used by the demo application. You can
+        change this to point at a local broker without changing
+        any C code; only this Kconfig entry needs updating.
+
+endmenu
