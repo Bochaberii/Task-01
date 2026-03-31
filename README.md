@@ -207,4 +207,4 @@ This mock uses the same state machine concepts (commands and transitions) as the
   - It replaces hardware-specific calls with `printf`-based mocks, which is useful for understanding and presenting the design without requiring an ESP32 board.
 
 ## USE OF AI
-AI was primarily used to assist in developing the firmware, as this domain was entirely new to me. It helped guide the structure, implementation, and best practices, while I focused on understanding the concepts, refining the logic, and ensuring the system behaved as intended.
+While many of the concepts involved in this project were not entirely new to me, they were largely unexplored in practice. AI particularly Copilot helped bridge that gap by providing structure and direction, but I worked through the implementation, tested the behavior, and refined the system to ensure I fully understood how everything fits together.
